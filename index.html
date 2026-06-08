@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food World</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<nav>
+    <a class="active" href="/">Home</a>
+    <a href="/recipes">Recipes</a>
+    <a href="/blog">Blog</a>
+    <a href="/about">About</a>
+</nav>
+
+    <header>
+        <h1>🍔 Food World</h1>
+        <p>Discover Delicious Foods, Drinks and Desserts!</p>
+
+        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200"
+             alt="Food Collection">
+    </header>
+
+    <section class="welcome">
+        <h2>Welcome to Food World</h2>
+
+        <p>
+            Food is one of the most important parts of our daily lives.
+            It gives us energy, brings people together and allows us to
+            experience different cultures from around the world.
+        </p>
+
+        <p>
+            Every country has its own unique dishes and cooking traditions.
+            From Italian pizza and pasta to Georgian khachapuri and
+            international desserts, food tells a story about the people
+            and places where it comes from.
+        </p>
+
+        <p>
+            On this website you can discover delicious recipes, learn about
+            popular meals, explore refreshing drinks and find inspiration
+            for desserts that you can make at home.
+        </p>
+
+        <p>
+            Cooking is not only a useful skill but also a fun hobby.
+            Preparing food at home allows you to create healthier meals,
+            try new ingredients and share special moments with family
+            and friends.
+        </p>
+
+        <p>
+            Whether you are looking for a quick lunch, a tasty dinner,
+            a refreshing drink or a sweet dessert, Food World has something
+            for everyone. Browse our recipes page to find amazing dishes
+            and visit our blog page to explore delicious desserts and drinks.
+        </p>
+    </section>
+
+    <section class="container">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800" alt="Pizza">
+            <h2>Popular Recipes</h2>
+            <p>
+                Explore tasty recipes including pizza, pasta, burgers,
+                shawarma and traditional dishes from around the world.
+            </p>
+        </div>
+
+<div class="card">
+    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80" alt="Chocolate Cake">
+    <h2>Sweet Desserts</h2>
+    <p>
+        Discover chocolate cakes, donuts, ice cream and many other
+        delicious desserts for every occasion.
+    </p>
+</div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=800" alt="Drink">
+            <h2>Refreshing Drinks</h2>
+            <p>
+                Enjoy milkshakes, juices, coffee and other refreshing drinks
+                that perfectly complement your meals.
+            </p>
+        </div>
+
+    </section>
+
+</body>
+</html>
